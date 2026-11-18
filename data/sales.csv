@@ -1,8 +1,0 @@
-product,region,revenue,quantity,order_date
-Laptop,North,1200,1,2026-01-05
-Mouse,South,25,4,2026-01-06
-Laptop,South,2400,2,2026-01-09
-Keyboard,North,75,3,2026-01-10
-Mouse,North,50,2,2026-01-11
-Laptop,West,1800,1,2026-01-12
-Keyboard,South,100,4,2026-01-15
