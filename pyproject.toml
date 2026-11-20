@@ -1,9 +1,23 @@
 [project]
 name = "datapilot"
 version = "0.1.0"
-description = "Add your description here"
+description = "DataPilot workspace"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
-    "duckdb>=2.0.0",
+    "contracts",
+]
+
+[tool.uv.sources]
+contracts = { workspace = true }
+
+[tool.uv.workspace]
+members = [
+    "libs/contracts",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.6.0",
 ]
